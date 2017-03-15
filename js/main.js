@@ -43,7 +43,7 @@ function onClickBtnJuego() {
     var jugador2=document.getElementById("jugador2");
     localStorage.setItem('nombre_1',jugador1.value);
     localStorage.setItem('nombre_2',jugador2.value);
-    caremoco();
+    generarAleatorio();
 }
 
 function onClickBtnHistorial(evt) {
@@ -133,6 +133,6 @@ function gotoSection(_identificadorDeSeccion)
 
 	nextSection.addClass('visible');
 
-	TweenMax.from(nextSection, 1, {scale:0.2, opacity:0, ease:Elastic.easeOut});
+	//TweenMax.from(nextSection, 1, {scale:0.2, opacity:0, ease:Elastic.easeOut});
 	currentSection = nextSection;
 }

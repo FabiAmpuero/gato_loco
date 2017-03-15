@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee';
 }
 header
 {
@@ -61,4 +61,8 @@ section
 #saludo h1
 {
 	margin-bottom:120px;
+}
+
+#juego button {
+    margin-top: 20px;
 }
